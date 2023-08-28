@@ -1,0 +1,38 @@
+{
+  "Usuarios": [
+    {
+      "id": 1,
+      "nome": "Joao",
+      "idade": 18,
+      "cpf": "00000000000",
+      "cep": "11111111",
+      "num": 888,
+      "comorbidades": "diabete...etc"
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "idade": 25,
+      "cpf": "11111111111",
+      "cep": "22222222",
+      "num": 777,
+      "comorbidades": "hipertensao...etc"
+    }
+  ],
+  "ubs": [
+    {
+      "endereco": "dev de sistemas"
+    }
+  ],
+  "medico": [
+    {
+      "nomeMedico": "Joao batista",
+      "crm": "000000"
+    }
+  ],
+  "consulta": [
+    {
+      "qrcode": "scam"
+    }
+  ]
+}

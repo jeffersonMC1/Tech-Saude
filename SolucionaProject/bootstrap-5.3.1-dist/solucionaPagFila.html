@@ -1,0 +1,37 @@
+<html>
+   
+<head>
+    <title>Página em bootstrap</title>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styless.css">
+
+
+</head>
+<img src="Queue-bro 1.png" class="rounded mx-auto d-block" alt="IMAGEM BOLADA">
+
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <h5 class="text-center">Tempo estimado para você ser atendido:</h5>
+    <div id="teste">
+
+        <div class="timer" id="timer">
+            10:00
+        </div>
+        <!-- Chamada à função startTimer() para autoplay -->
+        <script>
+            window.onload = function () {
+                startTimer();
+            };
+        </script>
+        <script src="script.js"></script>
+        <h3 id="timer">POSIÇÃO NA FILA: </h3>
+        <p id="timer" style="font-size: 35px;"><strong>2</strong></p>
+        <button class="btn btn-danger btn-block btn-primary btn-lg btn-block" onclick="window.location.href='./solucionaProject3.html';">Voltar</button>
+        
+    </div>
+
+
+</body>
+
+</html>
